@@ -148,23 +148,21 @@ main {
 
 .logo-container {
     display: inline-block;
-    height: 8em;
-    width: 7em;
-    border-radius: 3.5em;
-    background-size: contain;
+    height: 7em;
+    width: 5em;
     margin-top: 1em;
     margin-right: 1em;
 }
 
-div.logo-container:last-child {
+div.logo-container:nth-child(6n) {
     margin-right: 0;
 }
 
 .logo {
     display: inline-block;
-    height: 7em;
-    width: 7em;
-    border-radius: 3.5em;
+    height: 5em;
+    width: 5em;
+    border-radius: 2.5em;
     background-size: contain;
 }
 
@@ -190,5 +188,10 @@ div.logo-container:last-child {
 
 .js {
     background: url(images/js.png);
+    background-size: contain;  
+}
+
+.sql {
+    background: url(images/sql.png);
     background-size: contain;  
 }
