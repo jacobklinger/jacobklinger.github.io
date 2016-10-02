@@ -119,3 +119,30 @@ main {
 .card p {
     margin: 0.5em 0 0 0;
 }
+
+.links-area {
+    background-color: #ffffcc;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    height: 80px;
+    
+    border-radius: 6px;
+    background: gray;
+}
+
+.uri-image {
+    float: right;
+    height: 123px;
+    width: 123px;
+    margin-left: .5em;
+    border-radius: 3px;
+    background: url(images/URI.jpg);
+    background-size: contain;
+}
+
+
+
