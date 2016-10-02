@@ -7,7 +7,6 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
-    font-size: 1em;
 }
 
 header {
@@ -23,7 +22,7 @@ header {
 
 header h1 {
     text-align: center;
-    margin: 10px;
+    margin: 1rem;
     
     font-weight: 500;
     color: white;
@@ -104,8 +103,9 @@ main {
 
 .card {
     box-sizing: border-box;
-    padding: 1em;
-    margin-top: 1em;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 1.4rem;
     text-align: left;
     border-radius: 4px;
     background-color: #fff;
@@ -116,43 +116,49 @@ main {
 
 .card h2 {
     margin: 0;
+    font-weight: 600;
+    line-height: 2rem;
 }
 
 .card h3 {
-    margin: 1.5em 0 0 0;
+    margin: 1.5rem 0 0 0;
 }
 
 .card p {
-    margin: 0.5em 0 0 0;
+    margin: .7rem 0 0 0;
 }
 
 .uri-image {
     float: right;
-    height: 123px;
-    width: 123px;
-    margin-left: .5em;
+    height: 8.3rem;
+    width: 8.3rem;
+    margin-left: .5rem;
     border-radius: 3px;
     background: url(images/URI.jpg);
     background-size: contain;
 }
 
 .igt-image {
+    clear: right;
     float: right;
     height: 80px;
     width: 200px;
-    margin-left: .5em;
+    margin-left: .5rem;
     border-radius: 3px;
     background: url(images/igt.png);
     background-size: contain;
 }
 
-.si-image {
+.rhodes-image {
+    clear: right;
     float: right;
-    height: 80px;
-    width: 200px;
-    margin-left: .5em;
+    height: 71px;
+    width: 120px;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     border-radius: 3px;
-    background: url(images/si.png);
+    background: url(images/rhodes.png);
     background-size: contain;
 }
 
@@ -164,11 +170,11 @@ p.when {
 
 .logo-container {
     display: inline-block;
-    height: 5em;
-    width: 5em;
-    border-radius: 2.5em;
-    margin-top: 1em;
-    margin-right: 1.5em;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
 }
 
 div.logo-container:nth-child(6n) {
@@ -177,9 +183,9 @@ div.logo-container:nth-child(6n) {
 
 .logo {
     display: inline-block;
-    height: 5em;
-    width: 5em;
-    border-radius: 2.5em;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 2.5rem;
     background-size: contain;
 }
 
@@ -411,4 +417,48 @@ div.logo-container:nth-child(6n) {
 
     /* Webkit (Chrome 11+) */ 
     background-image: -webkit-linear-gradient(top, #FFEB3B 0%, #FBC02D 100%);
+}
+
+.git-logo {
+    background: url(images/git.png);
+    background-size: contain;
+}
+
+.git {
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F4511E), color-stop(100, #D84315));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #F4511E 0%, #D84315 100%);
+}
+
+.unix-logo {
+    background: url(images/git.png);
+    background-size: contain;
+}
+
+.unix {
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #F4511E 0%, #D84315 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F4511E), color-stop(100, #D84315));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #F4511E 0%, #D84315 100%);
 }
