@@ -138,6 +138,16 @@ main {
     background-size: contain;
 }
 
+.skhs-image {
+    float: right;
+    height: 6.1rem;
+    width: 6.1rem;
+    margin-left: .5rem;
+    border-radius: 3px;
+    background: url(images/skhs.png);
+    background-size: contain;
+}
+
 .igt-image {
     clear: right;
     float: right;
@@ -159,6 +169,18 @@ main {
     margin-bottom: .5rem;
     border-radius: 3px;
     background: url(images/rhodes.png);
+    background-size: contain;
+}
+
+.photo-image {
+    clear: right;
+    float: right;
+    height: 120px;
+    width: 120px;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+    background: url(images/photo.png);
     background-size: contain;
 }
 
