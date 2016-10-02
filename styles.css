@@ -70,6 +70,52 @@ nav {
     text-align: center;
 }
 
+.active-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-bottom: 8px dashed;
+    border-bottom: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-left: 8px;
+}
 
+main {
+    position: absolute;
+    top: 106px;
+    width: 100%;
+}
 
+.main-column {
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%);
+    
+    width: 560px;
+    max-width: 560px;
+    min-width: 560px;
+    
+    margin-top: 2em;
+}
 
+.card {
+    box-sizing: border-box;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: left;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    margin: 0.5em 0 0 0;
+}
