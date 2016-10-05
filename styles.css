@@ -26,6 +26,17 @@ header h1 {
     
     font-weight: 500;
     color: white;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header h1 a:hover {
+    cursor: pointer;
 }
 
 nav {
@@ -45,10 +56,18 @@ nav {
     padding: 5px 10px 5px 10px;
     color: white;
     border-radius: 4px;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .nav-link a:link {
     text-decoration: none;
+    
 }
 
 .nav-link a:visited {
@@ -58,11 +77,13 @@ nav {
 .nav-link a:hover {
     color: white;
     background: #218ebd;
+    cursor: pointer;
 }
 
 .nav-link a:active {
     color: #5AC8FB;
     background: white;
+    cursor: pointer;
 }
 
 .active-link {
