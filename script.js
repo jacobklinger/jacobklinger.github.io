@@ -30,6 +30,13 @@ function hideCardsExcept(except) {
     else {
         $("div.extracurricular").show();
     }
+    
+    if(except !== ("portfolio")) {
+        $("div.portfolio").hide();
+    }
+    else {
+        $("div.portfolio").show();
+    }
 }
 
 function showAllCards(except) {
@@ -38,6 +45,7 @@ function showAllCards(except) {
     $("div.work").show();
     $("div.skills").show();
     $("div.extracurricular").show();
+    $("div.portfolio").show();
 }
 
 function clearNavHighlights() {
@@ -45,6 +53,7 @@ function clearNavHighlights() {
     $("div.nav-link a.work").attr("currentNav", "false");
     $("div.nav-link a.skills").attr("currentNav", "false");
     $("div.nav-link a.extracurricular").attr("currentNav", "false");
+    $("div.nav-link a.portfolio").attr("currentNav", "false");
 }
 
 
@@ -100,6 +109,15 @@ $(document).ready(function(){
             currentNav = "extracurricular";
             clearNavHighlights();
             $("div.nav-link a.extracurricular").attr("currentNav", "true");
+        }
+    });
+    
+    $("div.nav-link a.portfolio").click(function() {
+        if(currentNav != "portfolio") {
+            hideCardsExcept("portfolio");
+            currentNav = "portfolio";
+            clearNavHighlights();
+            $("div.nav-link a.portfolio").attr("currentNav", "true");
         }
     });
 });
