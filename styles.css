@@ -106,6 +106,14 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #0960b9;
+}
+
+a:visited {
+    color: #0960b9;
+}
+
 main {
     position: absolute;
     top: 106px;
@@ -193,7 +201,7 @@ main {
     height: 120px;
     width: 199px;
     margin-left: .5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
     border-radius: 0px;
     background: url(images/nextab.png);
     background-size: contain;
