@@ -147,6 +147,10 @@ main {
     box-shadow: 0 0 2px rgba(0,0,0,.1);
 }
 
+div.card:last-element {
+    margin-bottom: 2rem;
+}
+
 .card h2 {
     margin: 0;
     font-weight: 600;
@@ -205,6 +209,45 @@ main {
     border-radius: 0px;
     background: url(images/nextab.png);
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pocketdex-image {
+    float: right;
+    height: 120px;
+    width: 199px;
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+    border-radius: 0px;
+    background: url(images/pocketdex.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parkbench-image {
+    float: right;
+    height: 120px;
+    width: 199px;
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+    border-radius: 0px;
+    background: url(images/parkbench.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.catandomizer-image {
+    float: right;
+    height: 120px;
+    width: 199px;
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+    border-radius: 0px;
+    background: url(images/catandomizer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
 }
 
 .rhodes-image {
