@@ -41,6 +41,15 @@ header h1 {
     user-select: none;
 }
 
+header h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
+    
+    font-weight: 500;
+    color: white;
+}
+
 header h1 a:hover {
     cursor: pointer;
 }
@@ -130,7 +139,7 @@ main {
     max-width: 560px;
     min-width: 560px;
     
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: 2em;
 }
 
@@ -167,6 +176,44 @@ div.card:last-element {
 
 .card p {
     margin: .7rem 0 0 0;
+}
+
+ul.skills li {
+    /*list-style: none;*/
+    list-style-position:inside;
+}
+
+ul {
+    /*list-style: none;*/
+    list-style-position:inside;
+    margin:5px;
+    padding:5px;
+}
+
+.photopass-image {
+    clear: right;
+    float: right;
+    height: 100px;
+    width: 148px;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+    background: url(images/photopass.png); 
+    background-size: contain;
+}
+
+.disney-image {
+    clear: right;
+    float: right;
+    height: 80px;
+    width: 245px;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 3px;
+    background: url(images/disney.png); 
+    background-size: contain;
 }
 
 .uri-image {
