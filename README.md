@@ -1,2 +1,2 @@
-# resume
-Jacob Klinger's Resume
+# Jacob Klinger's Resume
+jacobklinger.github.io
