@@ -1,150 +1,167 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8" lang="en">
-        <Title>Jacob Klinger - Resume</Title>
-        <link href="styles.css" type="text/css" rel="stylesheet">
-        <link rel="icon" type="image/png" href=/images/jk.png>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-        <script src="script.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <header>
-            <h1><a>JACOB KLINGER</a></h1>
-            <h2>Full Stack Software Engineer</h2>
-            <nav>
-                <div class="nav-link">
-                    <a class="edu">Education</a>
-                </div>
-                <div class="nav-link">
-                    <a class="work">Work</a>
-                </div>
-                <div class="nav-link">
-                    <a class="skills">Skills</a>
-                </div>
-                <div class="nav-link">
-                    <a class="extracurricular">More</a>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div class="main-column">
-                <div class="card skills">
-                    <h2>Skills</h2>
-                    <ul class="skills">
-                        <li>Java</li>
-                        <li>Spring</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>SQL</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
-                <div class="card work">
-                    <p class="when">January 2018 - Present</p>
-                    <h2>Walt Disney Parks &amp; Resorts</h2>
-                    <h3>Software Engineering Intern, PhotoPass Team</h3>
-                    <div class="photopass-image"></div>
-                    <p>Supported development of a microservice re-architecture and cloud migration of existing backend services by fixing defects and implementing functionality.</p>
-                    <p>Automated a suite of smoke tests using Selenium and TestNG frameworks, allowing the dev team to catch bugs before QA testing.</p>
-                </div>
-                <div class="card work">
-                    <p class="when">May 2017 - January 2018</p>
-                    <h2>Walt Disney Parks &amp; Resorts</h2>
-                    <h3>Software Engineering Intern, Performance Engineering</h3>
-                    <div class="disney-image"></div>
-                    <p>Created a web service with Spring Boot for ingesting high volume performance test results.</p>
-                    <p>Scripted and ran performance tests for production applications and diagnosed performance issues.</p>
-                    <p>Developed a proof of concept for automated conversion of loadrunner and SoapUI pro tests to open source SoapUI tests.</p>
-                </div>
-                <div class="card work">
-                    <p class="when">May - August 2016</p>
-                    <h2>International Game Technology</h2>
-                    <h3>Intern, Content Development</h3>
-                    <div class="igt-image"></div>
-                    <p>Developed a UI redesign for the <a href="http://www.igt.com/en/products-and-services/lottery/retail-solutions-and-services/flexible-retail-solutions">Gemini Touch</a> lottery vending machine, the highest preforming self-service product of the company.</p>
-                    <p>Became familiar with a preexisting code base (10,000+ lines) in two weeks.</p>
-                    <p>Designed an aesthetic refresh and new interactions like cyclical scrolling that emphasized the content and provided accessibility options for wheelchair users.</p>  
-                    <p>Implemented in HTML, CSS, and JavaScript.</p>
-                </div>
-                <div class="card work">
-                    <p class="when">September 2015 - December 2016</p>
-                    <h2>Academic Enhancement Center</h2>
-                    <h2>University of Rhode Island</h2>
-                    <h3><a href="http://web.uri.edu/aec/supplemental-instruction/" title="Supplemental Instruction Program at University of Rhode Island">Supplemental Instruction Leader</a> for <a href="https://www.cs.uri.edu/academics/course-listing/#CSC211" title="CSC 211 Course Description">CSC 211</a></h3>
-                    <p>Lead weekly sessions for 10-20 students to review Java, object oriented programming concepts, and good program design.</p>
-                    <p>Create practice quizzes and programming problems for students to solve, then facilitate students completion of them.</p>
-                </div>
-                <div class="card work">
-                    <p class="when">September 2015 - December 2016</p>
-                    <h2>Information Technology Services</h2>
-                    <h2>University of Rhode Island</h2>
-                    <a href="http://web.uri.edu/itms/sta/" title="Description of Student Technology Assistant"><h3>Student Technology Assistant</h3></a>
-                    <p>Employee for Instructional Technology and Media Services at URI.</p>
-                    <p>Work on a variety of projects in software, film, and 3D visualization.</p>
-                    <p>Currently working on online quiz modules for URI Nutrition Department, for research on promoting critical thinking.</p>
-                </div>
-                <div class="card education">
-                    <div class="uri-image"></div>
-                    <h2>University&nbsp;of&nbsp;Rhode&nbsp;Island</h2>
-                    <p>B.S. in Computer Science with a minor in Film Media</p>
-                    <p>Graduated magna cum laude in December 2016</p>
-                    <p>Cumulative GPA: 3.55</p>
-                </div>
-                <div class="card extracurricular">
-                    <h2>ParkBench</h2>
-                    <div class="parkbench-image"></div>
-                    <p>RESTful API for Disney parks data built with Java and Spring Boot. Deployed using Docker and ECS.</p>
-                    <p><a href="https://github.com/jacobklinger/ParkBench">GitHub</a></p>
-                    <p><a href="http://www.parkbenchapi.com/">www.parkbechapi.com</a></p>
-                </div>
-                <div class="card extracurricular">
-                    <h2>ParkHours</h2>
-                    <p>Alexa Skill built with Node.js and Lambda.</p>
-                    <p><a href="https://github.com/jacobklinger/ParkHours">GitHub</a></p>
-                    <a href="https://www.amazon.com/Jacob-Klinger-Park-Hours/dp/B077SJKYZS/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520300855&sr=1-1&keywords=park+hours#customerReviews" title="">Amazon Skill Store</a>
-                </div>
-                <div class="card extracurricular">
-                    <h2>Pocketdex</h2>
-                    <div class="pocketdex-image"></div>
-                    <p>Web application for viewing Pokemon data.</p>
-                    <p>Built with AngularJS, HTML, CSS, JavaScript, Java. Consumes the RESTful API <a href="http://pokeapi.co/">PokeAPI.</a></p>
-                </div>
-                <div class="card extracurricular">
-                    <h2>Catandomizer</h2>
-                    <div class="catandomizer-image"></div>
-                    <p>Random board generator for Settlers of Catan.</p>
-                    <p>Built with Java, HTML, CSS, JavaScript, and SVG.</p>
-                    <p><a href="https://github.com/jacobklinger/Catandomizer">GitHub</a>
-                    <p><a href="http://catandomizer.jacobklinger.me" title="Visit Catandomizer">catandomizer.jacobklinger.me</a></p>
-                </div>
-                <div class="card extracurricular">
-                    <a href="https://chrome.google.com/webstore/detail/nexttab/pincecdoplmccjffooekhehbekopdikm?authuser=2" title="Download NextTab on the Chrome Web Store"><h2>NextTab</h2></a>
-                    <div class="nexttab-image"></div>
-                    <p>Developed a Chrome Extension that replaces the default new tab of the browser.</p>
-                    <p>Created interactive “3D” card effect for popular sites, with the ability to hide, show, and rearrange them.</p>
-                    <p><a href="https://github.com/jacobklinger/NextTab">GitHub</a></p>
-                    <p><a href="https://chrome.google.com/webstore/detail/nexttab/pincecdoplmccjffooekhehbekopdikm?authuser=2" title="Download NextTab on the Chrome Web Store">Chrome Web Store</a></p>
-                </div>
-                <div class="card work">
-                    <p class="when">Summer 2014 and 2015</p>
-                    <div class="rhodes-image"></div>
-                    <h2>Rhodes&nbsp;Technologies</h2>
-                    <h3>Intern, Information Technology</h3>
-                    <p>Lowered volume of tickets for workstation setups, hardware repair, software installation, and general troubleshooting.</p>
-                    <p>Required constant communication with other employees and time management.</p>
-                </div>
-                <div class="card work">
-                    <p class="when">Spring&nbsp;2015</p>
-                    <h2>Computer&nbsp;Science&nbsp;Department</h2>
-                    <h2>University&nbsp;of&nbsp;Rhode&nbsp;Island</h2>
-                    <h3>Teaching Assistant for <a href="https://www.cs.uri.edu/academics/course-listing/#CSC212" title="CSC 212 Course Description">CSC 212</a></h3>
-                    <p>Helped students complete programming assignments about data structures in labs and during office hours.</p>
-                    <p>Held review session and proctored exam when professor was absent.</p>
-                    <p>Graded student programming projects and assignments.</p>
-                </div>
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <Title>Jacob Klinger - Resume</Title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href=/images/jk.png>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <h1><a>JACOB KLINGER</a></h1>
+        <nav>
+            <div class="nav-link">
+                <a class="skills">Skills</a>
             </div>
-        </main>
-    </body>
+            <div class="nav-link">
+                <a class="work">Work</a>
+            </div>
+            <div class="nav-link">
+                <a class="edu">Education</a>
+            </div>
+            <div class="nav-link">
+                <a class="extracurricular">Projects</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-column">
+            <div class="card skills">
+                <h2>Skills</h2>
+                <p>Java, SQL, JavaScript, HTML, CSS, Spring, AngularJS, Node.js, AWS</p>
+            </div>
+            <div class="card work">
+                <h2>accesso - Software Engineer</h2>
+                <p class="where">Lake Mary, FL</p>
+                <div class="accesso image"></div>
+                <h3>Tenant Onboarding Team</h3>
+                <p class="when">November 2019 - Present</p>
+                <p>Due to high performance, entrusted with the position of Technical Lead on a cross functional team
+                    tasked with reducing the time it takes to onboard a new client to AWS.</p>
+                <p>Quickly worked with the business to identify process improvement and develop automation, resulting in
+                    a 400% improvement in efficiency (12 weeks down to 3 weeks).</p>
+                <p>Initiated the development of a Spring Boot REST service to integrate with the AWS API and reduce
+                    onboarding to a one click deployment taking minutes.</p>
+                <p>Tech Stack: Java, MySQL, Spring Boot, CloudFormation, S3, Ansible, Linux</p>
+                <h3>eCommerce Team</h3>
+                <p class="when">March 2019 - November 2019</p>
+                <p>Sole back end developer on a front end team responsible for the highest revenue generating
+                    application of the business.</p>
+                <p>Acted as the subject matter expert for the back end in design discussions, development, testing, and
+                    troubleshooting.</p>
+                <p>Collaborated closely with front end developers and business owners in an agile environment.</p>
+                <p>Shipped a project to allow for validation logic through lightweight calls made early in the checkout
+                    process rather than in cart validation call at purchase time, to reduce business logic in the front
+                    end and improve UX.</p>
+                <p>Tech Stack: Java, MySQL, JavaScript, AngularJS, Linux</p>
+                <h3>System Maintenance Team</h3>
+                <p class="when">May 2018 - March 2019</p>
+                <p>Investigated production defects and shipped fixes for them on an agile team across all domains of the
+                    business.</p>
+                <p>Quickly worked to gain expertise of the business as well as the code base.</p>
+                <p>Tech Stack: Java, MySQL, Linux</p>
+            </div>
+            <div class="card work">
+                <h2>Walt Disney Attractions Technology - Software Engineering Intern</h2>
+                <p class="where">Orlando, FL</p>
+                <div class="photopass image"></div>
+                <h3>PhotoPass Team</h3>
+                <p class="when">January 2018 - May 2018</p>
+                <p>Implemented production features for a suite of Spring Boot microservices running in AWS that replaced
+                    the legacy monolithic service for the product.</p>
+                <p>Automated a suite of UI smoke tests using Selenium and TestNG frameworks.</p>
+                <p>Tech Stack: Java, JavaScript, HTML, CSS, Spring Boot, AngularJS, MariaDB, DyamoDB, S3, SQS</p>
+                <h3>Performance Engineering Team</h3>
+                <p class="when">May 2017 - January 2018</p>
+                <p>Created a Spring Boot REST service to ingest and persist high volume performance test results to
+                    remove the team’s dependency on the pro version of SoapUI.</p>
+                <p>Created a Java command line program to convert XML performance tests from SoapUI Pro to SoapUI.</p>
+                <p>Wrote performance tests in Jmeter for lift and shift migrations of applications to AWS and diagnosed
+                    performance issues with the applications.</p>
+                <p>Tech Stack: Java, Spring Boot, SQL Server, XML, SoapUI, Jmeter</p>
+            </div>
+            <div class="card work">
+                <h2>International Game Technology - Software Engineering Intern</h2>
+                <p class="where">West Greenwhich, RI</p>
+                <div class="igt image"></div>
+                <h3>Content Development Team</h3>
+                <p class="when">May 2016 - August 2016</p>
+                <p>Implemented a UI redesign proof of concept for the flagship touch-screen lottery vending machine
+                    produced by the company, with the goal of improving accessibility UX.</p>
+                <p>Tech Stack: JavaScript, HTML, and CSS.</p>
+            </div>
+            <div class="card education">
+                <h2>University&nbsp;of&nbsp;Rhode&nbsp;Island</h2>
+                <p class="where">Kingston, RI</p>
+                <div class="uri image"></div>
+                <p class="when">September 2013 - December 2016</p>
+                <p>B.S. Computer Science</p>
+                <p>Cumulative GPA: 3.55</p>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="card extracurricular">
+                <h2>ParkHours</h2>
+                <p>Alexa Skill for getting the park hours and showtimes at Walt Disney World.</p>
+                <p>Tech Stack: Node.js, JavaScript, HTML, AWS Lamda</p>
+                <p><a href="https://github.com/jacobklinger/ParkHours">GitHub</a></p>
+                <p><a href="https://www.amazon.com/Jacob-Klinger-Park-Hours/dp/B077SJKYZS/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520300855&sr=1-1&keywords=park+hours#customerReviews"
+                        title="">Amazon</a></p>
+            </div>
+            <div class="card extracurricular">
+                <h2>NextTab</h2>
+                <div class="nexttab image"></div>
+                <p>Google Chrome extension to replace the default new tab page of the browser.</p>
+                <p>Tech Stack: HTML, CSS, JavaScript</p>
+                <p><a href="https://github.com/jacobklinger/NextTab">GitHub</a></p>
+                <p><a href="https://chrome.google.com/webstore/detail/nexttab/pincecdoplmccjffooekhehbekopdikm"
+                        title="Download NextTab on the Chrome Web Store">Chrome Web Store</a></p>
+            </div>
+            <div class="card work">
+                <h2>Academic Enhancement Center, University of Rhode Island</h2>
+                <p class="where">Kingston, RI</p>
+                <h3>Supplemental Instruction Leader for CSC 211</h3>
+                <p class="when">September 2015 - December 2016</p>
+                <p>Lead weekly sessions for 10-20 students to review Java, object oriented programming concepts, and
+                    good program design.</p>
+                <p>Create practice quizzes and programming problems for students to solve, then facilitate students
+                    completion of them.</p>
+            </div>
+            <div class="card work">
+                <h2>Information Technology Services, University of Rhode Island</h2>
+                <p class="where">Kingston, RI</p>
+                <h3>Student Technology Assistant</h3></a>
+                <p class="when">September 2015 - December 2016</p>
+                <p>Employee for Instructional Technology and Media Services at URI.</p>
+                <p>Work on a variety of projects in software, film, and 3D visualization.</p>
+            </div>
+            <div class="card work">
+                <h2>Computer&nbsp;Science&nbsp;Department, University of Rhode Island</h2>
+                <p class="where">Kingston, RI</p>
+                <h3>Teaching Assistant for CSC 212</h3>
+                <p class="when">January 2015 - May 2015</p>
+                <p>Helped students complete programming assignments about data structures in labs and during office
+                    hours.</p>
+                <p>Held review sessions and proctored exams when professor was absent.</p>
+                <p>Graded student programming projects and assignments.</p>
+            </div>
+            <div class="card work">
+                <h2>Rhodes&nbsp;Technologies - Intern</h2>
+                <p class="where">Coventry, RI</p>
+                <div class="rhodes image"></div>
+                <h3>Information Technology Team</h3>
+                <p class="when">May 2014 - August 2015</p>
+                <p>Lowered volume of tickets for workstation setups, hardware repair, software installation, and general
+                    troubleshooting.</p>
+                <p>Required close collaboration with team memebers and clients.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>
